@@ -4,6 +4,7 @@
   border-collapse: collapse;
   display: table;
   width: 100%;
+  margin: 0;
 }
 
 .table-hover tbody > tr:hover {
@@ -11,7 +12,7 @@
 }
 
 .td-hover tbody > tr > td:hover {
-  background-color: #f1f2f3;
+  background-color: var(--color-gray-dark);
 }
 
 .table th {
@@ -22,7 +23,7 @@
 }
 
 .table > thead > tr > th { 
-  border-bottom: 1px solid #e3e6e9;
+  border-bottom: 1px solid var(--color-gray);
 }
 
 .table td {
@@ -32,6 +33,9 @@
 .table tr + tr > td, 
 .table tbody > tr + tr > th
 {
-  border-top: 1px solid #e3e6e9;
+  border-top: 1px solid var(--color-gray);
 }
 
+thead.thead-light > tr {
+  background-color: var(--color-gray-dark);
+}
