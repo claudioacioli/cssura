@@ -1,5 +1,6 @@
 a:link {
   margin: 0;
+  font-family: inherit;
   display: inline-block;
   color: #1476b8;
   font-weight: 500;
@@ -17,4 +18,9 @@ a:focus {
 
 a:active {
   color: #b81414;
+}
+
+a[disabled] {
+  color: rgba(0,0,0,.6);
+  cursor: not-allowed;
 }
