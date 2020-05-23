@@ -12,6 +12,7 @@
 .box > .box-header, 
 .box > .box-body,
 .box > .box-footer {
+  background-color: transparent;
   padding: 1.5em;
   margin: 0;
 }
