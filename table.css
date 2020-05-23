@@ -39,3 +39,38 @@
 thead.thead-light > tr {
   background-color: var(--color-gray-dark);
 }
+
+tr.bookmark > td:first-child,
+tr.bookmark > th:first-child {
+  border-left: 2px solid;
+}
+
+tr.bookmark-primary > th:first-child,
+tr.bookmark-primary > td:first-child {
+  border-left-color: var(--color-primary);
+}
+
+tr.bookmark-success > th:first-child,
+tr.bookmark-success > td:first-child {
+  border-left-color: var(--color-success);
+}
+
+tr.bookmark-danger > th:first-child,
+tr.bookmark-danger > td:first-child {
+  border-left-color: var(--color-danger);
+}
+
+tr.bookmark-warning > th:first-child,
+tr.bookmark-warning > td:first-child {
+  border-left-color: var(--color-warning);
+}
+
+tr.bookmark-light > th:first-child,
+tr.bookmark-light > td:first-child {
+  border-left-color: var(--color-light);
+}
+
+tr.bookmark-dark > th:first-child,
+tr.bookmark-dark > td:first-child {
+  border-left-color: var(--color-dark);
+}
