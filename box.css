@@ -9,27 +9,27 @@
   margin: 0;
 }
 
-.box > .box-header, 
-.box > .box-body,
-.box > .box-footer {
+.box__header, 
+.box__body,
+.box__footer {
   background-color: transparent;
   padding: 1.5em;
   margin: 0;
 }
 
-.box > .box-header {
+.box__header {
   border-bottom: 1px solid #f0f0f0;
 }
 
-.box > .box-footer {
+.box__footer {
   border-top: 1px solid #f0f0f0;
 }
 
-.box > .box-header > h1,
-.box > .box-header > h2,
-.box > .box-header > h3,
-.box > .box-header > h4,
-.box > .box-header > h5 {
+.box__header > h1,
+.box__header > h2,
+.box__header > h3,
+.box__header > h4,
+.box__header > h5 {
   font-family: inherit;
   margin: 0;
   font-weight: 500;

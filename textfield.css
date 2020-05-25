@@ -13,7 +13,7 @@
   margin: 0;
 }
 
-.textfield-inline {
+.textfield--inline {
   display: inline-block;
   width: inherit;
 }
