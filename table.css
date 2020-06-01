@@ -17,6 +17,7 @@
 
 .table th {
   background-color: transparent;
+  text-transform: uppercase;
   text-align: left;
   font-weight: 600;
   padding: 1em;
