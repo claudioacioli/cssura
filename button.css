@@ -118,3 +118,7 @@ a.button:visited {
   border-color: var(--color-dark);
   color: white!important;
 }
+
+.button--shadow {
+  box-shadow: 0 0 8px 0 rgba(17,22,26,.16), 0 4px 8px 0 rgba(17,22,26,.08), 0 8px 16px 0 rgba(17,22,26,.08);
+}
