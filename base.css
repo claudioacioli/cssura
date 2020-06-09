@@ -48,3 +48,11 @@ h1 {
 .article > p + p {
   margin-top: 1.5em;
 }
+
+.avatar--sm {
+  width: 2.2em;
+  height: 2.2em;
+  margin-top: 0;
+  border-radius: 50%;
+  object-fit: cover;
+}
