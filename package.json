@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/claudioacioli/cssura#readme",
   "devDependencies": {
+    "css-loader": "^4.3.0",
     "sass": "^1.26.10",
     "sass-loader": "^10.0.2",
     "webpack": "^4.44.1",
