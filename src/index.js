@@ -15,3 +15,4 @@ import './label.scss';
 import './textfield.scss';
 import './table.scss';
 import './appbar.scss';
+import './modal.scss';
