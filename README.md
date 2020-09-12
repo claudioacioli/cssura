@@ -8,7 +8,7 @@ First dowload the latest version of *cssura* css file:
 
 ```bash
 cd yourproject/styles
-curl -o cssura.css https://raw.githubusercontent.com/claudioacioli/cssura/master/cssura-v1.1.3.css
+curl -o cssura.css https://raw.githubusercontent.com/claudioacioli/cssura/master/cssura-v1.1.4.css
 ```
 
 Then include on your project
