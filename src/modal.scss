@@ -19,7 +19,9 @@
   left: 20%;
   padding: 2em 3em;
   background-color: white;
+  box-shadow: 0 0 30px 0 rgba(82,63,105,.05);
   overflow: auto;
+  border-radius: .35em;
 }
 
 .modal__close {
