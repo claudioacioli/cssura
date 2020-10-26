@@ -23,6 +23,7 @@ select.textfield {
   -webkit-appearance: none; 
   appearance: none;
   padding: .95em;
+  cursor: pointer;
 }
 
 select.textfield::after {
