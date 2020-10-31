@@ -9,6 +9,7 @@
   bottom: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  z-index:13;
 }
 
 .modal__content {
@@ -24,6 +25,7 @@
   border-radius: .35em;
   display: flex;
   flex-direction: column;
+  z-index:14;
 }
 
 .modal__header, 
