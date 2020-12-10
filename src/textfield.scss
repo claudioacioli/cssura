@@ -1,3 +1,20 @@
+/* Change autocomplete styles in WebKit */
+input.textfield:-webkit-autofill,
+textarea.textfield:-webkit-autofill,
+select.textfield:-webkit-autofill {
+  border: 1px solid var(--color-gray) !important;
+  -webkit-box-shadow: 0 0 0 1000px var(--color-gray) inset;
+}
+input.textfield:-webkit-autofill:hover,
+input.textfield:-webkit-autofill:focus,
+textarea.textfield:-webkit-autofill:hover,
+textarea.textfield:-webkit-autofill:focus,
+select.textfield:-webkit-autofill:hover,
+select.textfield:-webkit-autofill:focus {
+  border: 1px solid var(--color-gray-dark) !important;
+  -webkit-box-shadow: 0 0 0 1000px var(--color-gray-dark) inset;
+}
+
 .textfield {
   font-family: inherit;
   font-weight: inherit;
